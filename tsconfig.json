@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "pretty": true,
+    "target": "es2017",
+    "lib": ["ES2017", "ESNext.AsyncIterable", "DOM"],
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./lib",
+    "allowJs": true,
+    "types": ["bluebird-global", "node"],
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [],
+  "exclude": []
+}

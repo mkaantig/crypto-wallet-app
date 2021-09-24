@@ -1,0 +1,27 @@
+{
+  "name": "crypto-wallet-app",
+  "version": "1.0.0",
+  "description": "This is to generate addresses and sign transactions securely for many different blockchain networks.",
+  "private": "false",
+  "scripts": {},
+  "dependencies": {
+    "bignumber.js": "9.0.1",
+    "bitcoinjs-lib": "5.2.0",
+    "hdkey": "2.0.1",
+    "lodash": "4.17.21",
+    "yenv": "3.0.0"
+  },
+  "nyc": {
+    "extends": "@istanbuljs/nyc-config-typescript",
+    "all": true,
+    "check-coverage": true,
+    "cache": false,
+    "statements": 80,
+    "branches": 80,
+    "functions": 80,
+    "lines": 80,
+    "include": [
+      "src"
+    ]
+  }
+}

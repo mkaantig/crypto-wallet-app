@@ -1,0 +1,76 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-clean-code",
+    "tslint-microsoft-contrib/latest"
+  ],
+  "linterOptions": {
+    "exclude": []
+  },
+  "jsRules": {},
+  "rules": {
+    "indent": [true, "tabs", 2],
+    "no-constant-condition": true,
+    "max-line-length": false,
+    "no-console": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "member-ordering": false,
+    "variable-name": [
+      true,
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "max-classes-per-file": false,
+    "no-string-literal": false,
+    "no-unused-expression": false,
+    "no-bitwise": false,
+    "jsdoc-format": false,
+    "semicolon": [true, "always"],
+    "id-length": true,
+    "try-catch-first": true,
+    "max-func-args": true,
+    "min-class-cohesion": true,
+    "newspaper-order": true,
+    "no-flag-args": true,
+    "no-for-each-push": true,
+    "no-feature-envy": true,
+    "no-map-without-usage": true,
+    "no-complex-conditionals": true,
+    "prefer-dry-conditionals": true,
+    "no-commented-out-code": true,
+    "no-floating-promises": true,
+    "max-func-body-length": [
+      true,
+      250,
+      {
+        "ignore-parameters-to-function-regex": "^before|beforeEach|describe|context|it|skip|only$",
+        "ignore-comments": true
+      }
+    ],
+    "no-relative-imports": false,
+    "no-angle-bracket-type-assertion": true,
+    "prefer-type-cast": false,
+    "import-name": false,
+    "chai-vague-errors": false,
+    "export-name": false,
+    "function-name": false,
+    "non-literal-fs-path": true,
+    "no-suspicious-comment": false,
+    "non-literal-require": true,
+    "no-useless-files": true,
+    "no-http-string": false,
+    "prefer-array-literal": false,
+    "detect-child-process": false,
+    "no-for-in": false,
+    "no-single-line-block-comment": false,
+    "promise-must-complete": false,
+    "no-banned-terms": false,
+    "insecure-random": false,
+    "no-backbone-get-set-outside-model": false,
+    "deprecation": true
+  },
+  "rulesDirectory": ["node_modules/tslint-eslint-rules/dist/rules"]
+}
